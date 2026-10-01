@@ -10,5 +10,5 @@ Site internet de l'Oliveraie de Maminou
 
 - **V0/Vercel** :
   - [https://v0.app/oliveraie-maminou/chat/oliveraie-maminou-h8yI91M6lEP](https://v0.app/oliveraie-maminou/chat/oliveraie-maminou-h8yI91M6lEP)
-    - PROD : [https://oliveraie-de-maminou.vercel.app/](https://oliveraie-de-maminou.vercel.app/)
+    - PROD : [https://oliveraie-maminou.vercel.app/](https://oliveraie-maminou.vercel.app/)
     - DEV : [https://oliveraie-maminou.v0.build/](https://oliveraie-maminou.v0.build/)
