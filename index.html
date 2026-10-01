@@ -4,7 +4,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'Oliveraie de Maminou</title>
-    
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Tailwind CSS CDN -->
     <script src="./index_files/saved_resource"></script>
     
@@ -99,26 +99,28 @@
 
 
 
-        <!-- Savoir-Faire -->
-        <section class="bg-white rounded-xl p-6 sm:p-8 shadow-sm border border-gray-200 relative py-20 px-8 text-center bg-gradient-to-b from-white to-[#FFFAE6] border-b border-maminou-border">
-          <div class="max-w-3xl mx-auto space-y-6">
-            <span class="inline-block px-4 py-1.5 bg-maminou-olive/15 text-maminou-oliveDark font-sans-ui text-xs uppercase tracking-widest font-bold rounded-full">
-              Récolte Familliale Manuelle • Lunel-Viel (Hérault)
-            </span>
-            <h1 class="text-4xl sm:text-6xl font-extrabold text-maminou-brown leading-tight">
-              L'Authentique Huile d'Olive Vierge Extra du Languedoc
-            </h1>
-            <p class="text-xl text-maminou-teal/90 leading-relaxed font-serif italic">
-              « Des oliviers cultivés sans aucun traitement, une cueillette manuelle passionnée en novembre, et une extraction à froid le jour même au moulin. »
-            </p>
-            <div class="pt-4 flex flex-wrap justify-center gap-4 font-sans-ui">
-              <a href="#commander" class="bg-maminou-teal text-white font-bold px-8 py-3.5 rounded-full shadow-lg hover:bg-maminou-brown transition-all">
-                Découvrir la Cuvée 2026 (1L)
-              </a>
-              <a href="#histoire" class="bg-white text-maminou-teal border border-maminou-border font-bold px-8 py-3.5 rounded-full hover:bg-maminou-cream transition-all">
-                Notre Histoire
-              </a>
+        <!-- CARACTÉRISTIQUES DU DOMAINE (3 COLONNES) -->
+        <section class="py-16 px-8 bg-white border-b border-maminou-border bg-white rounded-xl p-6 sm:p-8 shadow-sm border border-gray-200">
+          <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="p-8 rounded-xl bg-maminou-cream/50 border border-maminou-border text-center space-y-3">
+              <div class="w-12 h-12 mx-auto rounded-full bg-maminou-olive/20 flex items-center justify-center text-maminou-oliveDark text-xl font-bold">🌿</div>
+              <h3 class="text-2xl font-bold text-maminou-brown">Culture Naturelle</h3>
+              <p class="font-sans-ui text-xs text-maminou-teal/80 leading-relaxed">Nos oliviers âgés d'une vingtaine d'années sont conduits dans le respect de l'environnement, sans aucun produit chimique.</p>
             </div>
+
+            <div class="p-8 rounded-xl bg-maminou-cream/50 border border-maminou-border text-center space-y-3">
+              <div class="w-12 h-12 mx-auto rounded-full bg-maminou-brown/20 flex items-center justify-center text-maminou-brown text-xl font-bold">🤲</div>
+              <h3 class="text-2xl font-bold text-maminou-brown">Récolte à la Main</h3>
+              <p class="font-sans-ui text-xs text-maminou-teal/80 leading-relaxed">Chaque olive est cueillie patiemment en famille au mois de novembre pour préserver l'intégrité absolue des fruits.</p>
+            </div>
+
+            <div class="p-8 rounded-xl bg-maminou-cream/50 border border-maminou-border text-center space-y-3">
+              <div class="w-12 h-12 mx-auto rounded-full bg-maminou-teal/20 flex items-center justify-center text-maminou-teal text-xl font-bold">💧</div>
+              <h3 class="text-2xl font-bold text-maminou-brown">Extraction à Froid</h3>
+              <p class="font-sans-ui text-xs text-maminou-teal/80 leading-relaxed">Pressées le jour même de la récolte au moulin local, nos olives conservent leurs arômes végétaux subtils et leurs bienfaits nutritionnels.</p>
+            </div>
+
           </div>
         </section>
 
